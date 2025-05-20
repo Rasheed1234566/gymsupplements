@@ -1,0 +1,135 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #54c7d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.contact-us h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-us p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-us label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contact-us input[type="text"]:focus,
+.contact-us input[type="email"]:focus,
+.contact-us textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.contact-us input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .contact-us {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .contact-us h1 {
+        font-size: 20px;
+    }
+
+    .contact-us input[type="submit"] {
+        font-size: 14px;
+    }
+}

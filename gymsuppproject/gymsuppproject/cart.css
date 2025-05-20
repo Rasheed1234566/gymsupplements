@@ -1,0 +1,105 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\xampp\htdocs\gymsuppproject\gym.jpg.jpg'); /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Ensure the image stays fixed when scrolling */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container for Cart */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Cart Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Total Price Styling */
+h2 {
+    text-align: right;
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Empty Cart Message */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+/* Button Styles */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
